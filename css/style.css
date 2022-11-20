@@ -278,14 +278,14 @@ article {
   align-self: center;
 }
 
-.cards-box {
+.card-box-item {
   position: relative;
   margin-top: 24px;
   width: 297px;
   height: 400px;
 }
 
-.cards-box img {
+.card-box-item img {
   object-position: -56px;
   object-fit: cover;
   width: 100%;
@@ -293,7 +293,7 @@ article {
   border-radius: 0 16px;
 }
 
-.card-des {
+.card-contain {
   position: absolute;
   background: #006c1ed9;
   border-radius: 0 16px;
@@ -303,7 +303,7 @@ article {
   padding: 16px;
 }
 
-.card-des h5 {
+.card-contain h5 {
   font-weight: 600;
   margin-bottom: 16px;
   color: #ffff;
@@ -330,13 +330,13 @@ article {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #003910d4;
+  background-color: #00661d;
   margin-top: 48px;
+  padding: 16px;
 }
 .card-footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
 }
 .footer-social {
   display: flex;
@@ -356,7 +356,7 @@ footer {
   color: #ffff;
 }
 .social-a a {
-  color: #64c905;
+  color: #ffff55;
 }
 
 .card-footer a:hover {
