@@ -23,6 +23,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   padding: 10px 24px;
+  animation: fadeIn 5s;
 }
 
 .nav li {
@@ -35,6 +36,7 @@ body {
 }
 .logo-a {
   margin-left: 40px;
+  animation: fadeIn 5s;
 }
 .logo-a a {
   font-size: 24px;
@@ -64,12 +66,14 @@ body {
   right: 0;
   bottom: 0;
   top: 0;
+  animation: fadeIn ease-in 6s;
 }
 .hero-txt {
   color: rgb(255, 255, 255);
   padding: 48px;
   min-height: 648px;
   text-align: justify;
+  animation: fadeIn 5s;
 }
 
 .hero-txt h1 {
@@ -385,4 +389,13 @@ footer h6 {
   padding: 24px;
   align-self: center;
   color: #ffff;
+}
+/* -------------------------------animations---------------------------------------------------- */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
