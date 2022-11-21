@@ -77,12 +77,12 @@ body {
 
 .hero-txt h1 {
   font-size: 64px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 87px;
 }
 .hero-txt h2 {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
 }
 article {
   padding: 8px 0;
