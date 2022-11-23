@@ -94,6 +94,11 @@ body {
   font-size: 48px;
   font-weight: 700;
 }
+.hero-txt h6 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+}
 article {
   padding: 8px 0;
   font-size: 16px;
