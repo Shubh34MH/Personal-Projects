@@ -1,3 +1,5 @@
+/** @format */
+
 @font-face {
   font-display: swap;
   font-family: "Open Sans";
@@ -50,7 +52,14 @@ body {
 .logo-a a:hover {
   color: #5fbb25;
 }
+.hero-img-row {
+  height: 100vh;
+  min-height: 580px;
+}
 
+.hero-img-col {
+  height: 100%;
+}
 .hero-img {
   position: relative;
   width: 100%;
@@ -62,17 +71,16 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: top 0 right 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
   animation: fadeIn ease-in 6s;
 }
+
 .hero-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
   color: rgb(255, 255, 255);
   padding: 24px 32px;
-  min-height: 648px;
   text-align: justify;
   animation: fadeIn 5s;
 }
