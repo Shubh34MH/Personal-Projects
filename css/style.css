@@ -80,7 +80,7 @@ body {
   justify-content: center;
   height: 100%;
   color: rgb(255, 255, 255);
-  padding: 24px 32px;
+  padding: 24px 40px;
   text-align: justify;
   animation: fadeIn 5s;
 }
@@ -106,7 +106,7 @@ article {
   font-weight: 600;
 }
 .button {
-  padding-top: 8px;
+  padding-top: 24px;
 }
 
 .button a {
