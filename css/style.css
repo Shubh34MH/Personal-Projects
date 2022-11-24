@@ -278,12 +278,12 @@ article {
 .card-box {
   display: flex;
   flex-direction: column;
-  padding: 48px 0;
+  padding: 56px 0;
 }
 .card-box .row {
   justify-content: center;
   column-gap: 3%;
-  padding: 16px;
+  padding: 16px 0px 48px 0px;
 }
 .card-box h2 {
   color: #ffff;
@@ -291,13 +291,12 @@ article {
   font-weight: 600;
   line-height: 65px;
   align-self: center;
-  padding-bottom: 24px;
+  padding-bottom: 8px;
 }
 
 .card-box-item {
   position: relative;
   width: 297px;
-  height: 400px;
   margin-top: 16px;
 }
 
@@ -327,15 +326,11 @@ article {
 .card-btn {
   text-decoration: none;
   display: inline-block;
-  padding: 8px 24px;
-  height: 42px;
-  width: 168px;
+  padding: 8px 32px;
   border: 1px solid #ffff;
-  background: none;
   border-radius: 40px;
   color: #ffff;
   font-size: 16px;
-  align-self: center;
 }
 .card-btn:hover {
   border: 1px solid #5fbb25;
